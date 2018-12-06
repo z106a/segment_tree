@@ -12,3 +12,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+textarea, select, input, button { outline: none; }
+
+fieldset {
+  border: 1px solid lightgray;
+}
+legend {
+  color: rgb(74, 193, 233);
+}
+ul {
+  list-style: none;
+}
+table {
+  line-height: 1.4em;
+  font-weight: bold;
+  font-style: normal;
+  border-collapse:separate;
+}
+table tbody td{
+  padding:10px;
+  text-align:center;
+  background-color:#DEF3CA;
+  border: 2px solid #E7EFE0;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  color:#666;
+  text-shadow:1px 1px 1px #fff;
+}
+
+table thead th {
+  padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.App {
+  max-width: 80%;
+}
+.head {
+  color: rgb(74, 193, 233);
+}
+.input,.submit {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+.input {
+  border: 1px solid lightgray;
+}
+.submit {
+  background-color: rgb(74, 193, 233);
+  border: 1px solid transparent;
+  margin-left: 5px;
+  color: white;
+  font-weight: 900;
+}
+.submit::-moz-focus-inner { 
+  border: 0;
+}
+.container {
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+  /* background-color: aliceblue; */
+}
+.header-container {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.container > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+.controls {
+  padding: 1.5rem;
+  width: 80%;
+  
+}
+.info{
+  width: 100%;
+  color: black;
+  font-weight: 900;
+  float: right;
+}
+
